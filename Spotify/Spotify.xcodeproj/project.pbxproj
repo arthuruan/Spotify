@@ -30,6 +30,7 @@
 		CBA59E4B27CADE4A00499E46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA59E4A27CADE4A00499E46 /* HomeViewController.swift */; };
 		CBA59E5027CADE4B00499E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA59E4F27CADE4B00499E46 /* Assets.xcassets */; };
 		CBA59E5327CADE4B00499E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA59E5127CADE4B00499E46 /* LaunchScreen.storyboard */; };
+		CBB3655027CC6B910042F15D /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB3654F27CC6B910042F15D /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		CBA59E4F27CADE4B00499E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA59E5227CADE4B00499E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA59E5427CADE4B00499E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3654F27CC6B910042F15D /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				CB7436DB27CAE61400280CD8 /* AudioTrack.swift */,
 				CB7436DD27CAE62800280CD8 /* Artist.swift */,
 				CB7436DF27CAE63800280CD8 /* UserProfile.swift */,
+				CBB3654F27CC6B910042F15D /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				CB7436B927CAE3C900280CD8 /* TabBarViewController.swift in Sources */,
 				CBA59E4B27CADE4A00499E46 /* HomeViewController.swift in Sources */,
 				CB7436D827CAE5E400280CD8 /* HapticsManager.swift in Sources */,
+				CBB3655027CC6B910042F15D /* AuthResponse.swift in Sources */,
 				CB7436DC27CAE61400280CD8 /* AudioTrack.swift in Sources */,
 				CB7436C227CAE4CF00280CD8 /* AuthViewController.swift in Sources */,
 				CBA59E4727CADE4A00499E46 /* AppDelegate.swift in Sources */,
