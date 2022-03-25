@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6393980753A7BFB912FBC3C9 /* Pods_Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0FF517EA74DED508F5298 /* Pods_Spotify.framework */; };
+		CB5FF50627ED5E3000621A45 /* NewReleasesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FF50527ED5E3000621A45 /* NewReleasesResponse.swift */; };
+		CB5FF50827ED5F5400621A45 /* APIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FF50727ED5F5400621A45 /* APIImage.swift */; };
+		CB5FF50A27ED646400621A45 /* FeaturedPlaylistsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FF50927ED646400621A45 /* FeaturedPlaylistsResponse.swift */; };
 		CB7436B927CAE3C900280CD8 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7436B827CAE3C900280CD8 /* TabBarViewController.swift */; };
 		CB7436BB27CAE44A00280CD8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7436BA27CAE44A00280CD8 /* SearchViewController.swift */; };
 		CB7436BE27CAE47D00280CD8 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7436BD27CAE47D00280CD8 /* LibraryViewController.swift */; };
@@ -39,6 +42,9 @@
 		03E9EFBE72FDA8CD9191001B /* Pods-Spotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.release.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.release.xcconfig"; sourceTree = "<group>"; };
 		37A0FF517EA74DED508F5298 /* Pods_Spotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C650F1A40B466B3C9B7C4004 /* Pods-Spotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotify.debug.xcconfig"; path = "Target Support Files/Pods-Spotify/Pods-Spotify.debug.xcconfig"; sourceTree = "<group>"; };
+		CB5FF50527ED5E3000621A45 /* NewReleasesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesResponse.swift; sourceTree = "<group>"; };
+		CB5FF50727ED5F5400621A45 /* APIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIImage.swift; sourceTree = "<group>"; };
+		CB5FF50927ED646400621A45 /* FeaturedPlaylistsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedPlaylistsResponse.swift; sourceTree = "<group>"; };
 		CB7436B827CAE3C900280CD8 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		CB7436BA27CAE44A00280CD8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CB7436BD27CAE47D00280CD8 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +92,6 @@
 				C650F1A40B466B3C9B7C4004 /* Pods-Spotify.debug.xcconfig */,
 				03E9EFBE72FDA8CD9191001B /* Pods-Spotify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,9 +175,12 @@
 				CB7436D927CAE60300280CD8 /* Playlist.swift */,
 				CB7436DB27CAE61400280CD8 /* AudioTrack.swift */,
 				CB7436DD27CAE62800280CD8 /* Artist.swift */,
-				CB7436DF27CAE63800280CD8 /* UserProfile.swift */,
 				CBB3654F27CC6B910042F15D /* AuthResponse.swift */,
 				CB92A33F27DED3310053BE50 /* Settings.swift */,
+				CB7436DF27CAE63800280CD8 /* UserProfile.swift */,
+				CB5FF50527ED5E3000621A45 /* NewReleasesResponse.swift */,
+				CB5FF50727ED5F5400621A45 /* APIImage.swift */,
+				CB5FF50927ED646400621A45 /* FeaturedPlaylistsResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,11 +339,14 @@
 				CB7436DA27CAE60300280CD8 /* Playlist.swift in Sources */,
 				CB7436D327CAE59500280CD8 /* AuthManager.swift in Sources */,
 				CB7436C427CAE4E600280CD8 /* WelcomeViewController.swift in Sources */,
+				CB5FF50A27ED646400621A45 /* FeaturedPlaylistsResponse.swift in Sources */,
+				CB5FF50827ED5F5400621A45 /* APIImage.swift in Sources */,
 				CB7436C927CAE51B00280CD8 /* ProfileViewController.swift in Sources */,
 				CB7436B927CAE3C900280CD8 /* TabBarViewController.swift in Sources */,
 				CBA59E4B27CADE4A00499E46 /* HomeViewController.swift in Sources */,
 				CB7436D827CAE5E400280CD8 /* HapticsManager.swift in Sources */,
 				CB92A34027DED3310053BE50 /* Settings.swift in Sources */,
+				CB5FF50627ED5E3000621A45 /* NewReleasesResponse.swift in Sources */,
 				CBB3655027CC6B910042F15D /* AuthResponse.swift in Sources */,
 				CB7436DC27CAE61400280CD8 /* AudioTrack.swift in Sources */,
 				CB7436C227CAE4CF00280CD8 /* AuthViewController.swift in Sources */,
